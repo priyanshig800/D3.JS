@@ -1,0 +1,101 @@
+/* Styling header of the page */
+header {
+  padding: 10px;
+  width:105%;
+  height:10%;
+  left:-3%;
+  position:relative;
+  background: rgb(233, 223, 192);
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  border-bottom-left-radius: 30% 20%;
+  border-bottom-right-radius: 30% 20%;
+  
+  padding: 10px;
+  text-align: center;
+  color: black;
+  font-family: "Trebuchet MS";
+}
+/* styling visualization area */
+.visualization {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  font-family: "Trebuchet MS";
+  display: flex;
+  justify-content: center;
+}
+/* styling svg drawspace */
+#drawspace {
+  margin: "10px";
+  background-color: white;
+}
+/* styling svg details */
+.details {
+  padding: 15px 0 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  background: #F5F5F5;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3); 
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px; 
+  -khtml-border-radius: 10px;
+  color: grey;
+  text-align: left;
+  font-family: "Trebuchet MS";
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* styling labels for drpodown */
+label {
+  color: black;
+  padding: 5px;
+}
+/* styling body of page */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+/* styling dropdown div */
+.box {
+  margin-bottom: 20px;
+  margin-top: auto;
+}
+.box label{
+  font-size: large;
+}
+/* styling each dropdown*/
+.box select {
+  background-color: white;
+  color: black;
+  padding: 12px;
+  margin-top: 10px;
+  width: 350px;
+  border: none;
+  font-size: 20px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.3);
+  -webkit-appearance: button;
+  appearance: button;
+  outline: none;
+}
+
+.box select option {
+  padding: 30px;
+}
+
+.tools {
+  margin-top: 30px;
+  margin-bottom: 400;
+  margin-right: 30px;
+  text-align: center;
+}
+
+main {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Efficiency of Crop Production in India</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Deaths and injuries in road accidents in India from 2015-2018</h1>
+    </header>
+    <main>
+      <div class="visualization">
+        <div>
+          <svg id="drawspace" height="700" width="700"></svg>
+        </div>
+        <div class="tools">
+          <div class="box">
+            <label for="year">Select Year :-</label>
+            <select id="year" name="year" onchange="map()"></select>
+          </div>
+
+          <div class="box">
+            <label for="data">Select Data :-</label>
+            <select id="data" name="data" onchange="map()"></select>
+          </div>
+
+          <p>
+            ( Move cursor over a state to see data value for selected year )
+          </p>
+          
+          <div class="details"> 
+            <h4>MADE BY -</h4><br>
+            <ul>
+            <li>Priyanshi Gupta</li>
+            </ul> 
+          </div>
+
+          <div class="details"> 
+            
+            <text>  Visualized three datasets for three different years, on the Indian map, by changing the gradient of states and showing data on hovering over the states using d3.js.
+
+</text>
+          </div>
+        </div>
+      </div> 
+    </main>
+    
+
+    <script src="d3.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
